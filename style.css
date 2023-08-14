@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.logo{
+    color: green;
+}
+.searchbar{
+    display:flex;
+
+    width: 30%;
+    padding: 15px;
+    justify-content: space-around;
+ 
+}
+.searchbar:hover{
+    color:white;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+    position:sticky;
+    top:0px;
+    background-color: rgb(152, 255, 255);
+    align-items: center;
+}
+img{
+    float:right;  
+    transition-duration: 2s;
+
+}
+img:hover{
+    transform:scale(1.05);
+}
+
+
+.plants{
+    background-color: rgb(152, 255, 255);
+    padding: 15px;
+    
+}
+.one{
+    padding: 20px;
+}
+
+
+
+button{
+    background-color: black;
+    color:white;
+    transition-duration:2s;
+}
+button:hover{
+    color:grey;
+    cursor:pointer;
+    transform:scale(1.05);
+
+}
+.container{
+    padding:15px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.box{
+    border-style:solid;
+    border-color: black;
+    border-width: 5px;
+    width:280px;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.pictures{
+    background-color: rgba(144, 253, 253, 0.904);
+    display:flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.pic1{
+    margin-top:-30px;
+    margin-left: 20px;
+   
+    transition-duration: 2s;
+    border-radius: 10px;
+}
+.pic1:hover{
+        transform:scale(1.05);
+    }
+.pic2{
+        margin-top: 35px;
+   
+        transition-duration: 2s;
+        border-radius: 10px;
+    }
+   .pic2:hover{
+        transform:scale(1.05);
+    }
+
+.pic3{
+    margin-right: 25px;
+    margin-top: -30px;
+    
+    transition-duration: 2s;
+    border-radius: 10px;
+    }
+   .pic3:hover{
+        transform:scale(1.05);
+    }
+.third{
+    text-align: center;
+    background-color: rgba(144, 253, 253, 0.904);
+}
+
+    .boxx img{
+        transition-duration: 2s;
+        border-radius: 10px;
+    }
+    .boxx img:hover{
+        transform:scale(1.05);
+    }
+
+.products{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.customer{
+    background-color: rgb(181, 245, 245);
+    display:flex;
+    justify-content: space-between;
+    margin-left: 30px;
+   
+
+   
+     
+}
+    
+
+.first img{
+    position: relative;
+    right:50px;
+    top: -50px;
+    float:left;
+    transition-duration: 2s;
+    
+    margin-left:-30px;
+
+    
+    
+}
+.first img:hover{
+        transform:scale(1.05);
+    }
+
+   
+
+
+.second{
+    Padding-left: 60px;
+    Padding-top:60px ;
+    height: 300px;
+
+}
+
+.search{
+    width:50%;
+    margin-left: 340px;
+    padding: 10px;
+}
+.last button{
+
+        background-color: black;
+        color:white;
+        width: 10%;
+        transition-duration:2s;
+        
+}
+.last button:hover{
+    transform:scale(1.05);
+}
+.footer{
+    padding:20px;
+    background-color: rgb(190, 253, 253);
+    padding-top: 20px;
+    padding-bottom: 0px;
+   
+   
+}
+
